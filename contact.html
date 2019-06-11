@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row"> <!-- This is the NAV row-->
 
             <!-- This is column 1 of 4 - blank column -->
             <div class="col-md-1.5">  
@@ -38,20 +38,47 @@
                             <span class="navbar-brand mb-0 h1"></span>
                     <ul class="nav right-aligned">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link text-secondary" href="index.html">About</a>
                         </li>                           
                    
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link text-secondary" href="#">Contact</a>
                         </li>                   
                     </ul>
                 </nav>
             </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up)-->
         </div>  <!-- end of row-->
+
+                <div class="row"> <!--This is the beginning of the Contact-->
+                    <div class="col-md-8">
+                        <div class="page-header text-info">
+                          <h4>Contact Me</h4>
+         
+                        <form>
+                            <div class="form-group text-dark">
+                              <label for="exampleFormControlInput1">Your Name</label>
+                              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                            </div>
+
+                            <div class="form-group text-dark">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                            </div>
+
+                            <div class="form-group text-dark">
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                            </div>
+                        </form>
+
+                <div class="row"> <!--This row holds the Footer & Copyright-->
+                            <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>
+                </div> <!--end of the Footer & Copyright-->
+
     </div> <!-- end of container-->
 
 

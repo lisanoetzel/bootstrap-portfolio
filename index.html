@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container"> 
+        <div class="row"> <!--This row holds the Name & NavBar links-->
 
             <!-- This is column 1 of 4 - blank column -->
             <div class="col-md-1.5">  
@@ -20,7 +20,7 @@
                </nav>  
             </div> <!-- end of column 1-->
           
-            <div class="col-md-2.5"> <!-- This is column 2 of 4; Bootstrap default Nav bar - modified as a heading-->
+            <div class="col-md-2.5"> <!-- This is column 2 of 4 - modified as a heading-->
                 <nav class="navbar navbar-light bg-info">
                     <span class="navbar-brand mb-0 h1">Lisa Mameli Noetzel</span>
                 </nav>
@@ -38,56 +38,63 @@
                             <span class="navbar-brand mb-0 h1"></span>
                     <ul class="nav right-aligned">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link text-secondary" href="#">About</a>
                         </li>                           
                    
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
                         </li>
                     
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link text-secondary" href="contact.html">Contact</a>
                         </li>                   
                     </ul>
                 </nav>
             </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up)-->
-        </div>  <!-- end of row-->
-    </div> <!-- end of container-->
- 
+        </div>  <!-- end of Name & Nav row-->
 
- <!-- this is a container holding 2 smaller containers -->
-  <div id="big-container" class="container">
 
-    <!-- section is a container w/ header, image & paragraphs -->
-    <section class="main-container">
-        <h1>About Me</h1>
+        <div class="row"> <!--This holds Bio & Header-->
 
-        <img src="assets/images/selfie.jpg" class="gen-image" alt="Selfie">
+             <div class="col-md-2">  <!-- This is external column 1 of 3 - Empty -->
+             </div> <!-- end of external column 1-->
+             
+             <div class="col-md-8 text-info"> <!-- This is external column 2 of 3 w/ About Header --> 
+                 <h4>About Me</h4>  <!-- end of external column 2-->
 
-        <p>Hello~Hola~Bonjour~Buongiorno! My name is Lisa Mameli Noetzel and this is my very first Web Portfolio page. As you can probably guess, I speak multiple (Romance) languages as well as English, which is my native tongue.</p>
-                  
-        <p>My interest in languages has been a life-long passion and has helped me in various career paths: teaching, translating/interpreting and, currently, web development. I enjoy working and interacting with people from different countries/cultures, and I look forward to many more international experiences as a Full-Stack/Front-End Developer!</p>
+                 <div class="row">  <!-- This is row 1 w/ 2 internal columns -->
+                    <div class="col-md-2">
+                            <img src="assets/images/selfie.jpg" alt="Selfie" class="img-thumbnail">
+                    </div> <!-- end of internal column 1 with picture & paragraph-->
+
+                    <div class="col-md-6 text-dark">
+                            <p>Hello~Hola~Bonjour~Buongiorno! My name is Lisa Mameli Noetzel and this is my very first Web Portfolio page. As you can probably guess, I speak multiple (Romance) languages as well as English, which is my native tongue.</p>
+                    </div>   <!-- end of internal column 2 w/ picture & paragraph-->
+                </div> <!-- end of row 1-->
+                
+                <div class="row"> <!--This is row 2 w/ paragraph 2--> 
+                    <div class="col-md-8 text-dark">
+                            <p>My interest in languages has been a life-long passion and has helped me in various career paths: teaching, translating/interpreting and, currently, web development. I enjoy working and interacting with people from different countries/cultures, and I look forward to many more international experiences as a Full-Stack/Front-End Developer!</p>
+                    </div> 
+                </div> <!-- end of row 2-->
+
+                <div class="row"> <!--This is row 3 w/ paragraph 3--> 
+                    <div class="col-md-8 text-dark">
+                            <p>In the links above, please feel free to send me a message with your comments and/or feedback about this website and my other projects listed in this portfolio.</p>
+                    </div>
+                </div>  <!-- end of row 3-->
+            <div class="col-md-2">  <!-- This is external column 3 of 3 - Empty -->
+            </div> <!-- end of external column 3-->
+
         
-        <p>In the links above, please feel free to send me a message with your comments and/or feedback about this website and my other projects listed in this portfolio.</p>           
-    </section>
+                 
+            <div class="row"> <!--This row holds the Footer & Copyright-->
+                <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>">
+                       
+                </div>
+            </div> <!--end of the Footer & Copyright-->
 
-    <!-- section is a sidebar w/ icons -->
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with me !</h2>
-
-        <img src="assets/images/iconfinder_mark-github_298822.png" class="social" alt="GitHub">
-        <img src="assets/images/iconfinder_linkedin_386655.png" class="social" alt="LinkedIn">
-        <img src="assets/images/iconfinder_Stack_Overflow_1298710.png" class="social" alt="Stack Overflow">
-      </div>
-    </section>
-
-  </div>
-
-  <footer>
-    Copyright &copy;
-      <div class="container"></div>
-  </footer>
+        </div> <!-- end of container--> 
     
 </body>    
      

@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-
+  
+        <div class="row"> <!--This row holds the Name & NavBar links-->
+           
             <!-- This is column 1 of 4 - blank column -->
             <div class="col-md-1.5">  
                 <nav class="navbar navbar-light bg-transparent">
@@ -20,7 +20,7 @@
                </nav>  
             </div> <!-- end of column 1-->
           
-            <div class="col-md-2.5"> <!-- This is column 2 of 4; Bootstrap default Nav bar - modified as a heading-->
+            <div class="col-md-2.5"> <!-- This is column 2 of 4 - modified as a heading-->
                 <nav class="navbar navbar-light bg-info">
                     <span class="navbar-brand mb-0 h1">Lisa Mameli Noetzel</span>
                 </nav>
@@ -50,60 +50,80 @@
                         </li>                   
                     </ul>
                 </nav>
-            </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up)-->
-        </div>  <!-- end of row-->
+            </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up-->
+        </div>  <!-- end of Name & Nav row-->
 
-        <div class="row"> <!--This holds Portfolio Header-->
+        <div class="row col-lg-12">
+            </div>
 
-            <div class="col-md-1.5">  <!-- This is external column 1 of 3 - Empty -->
-                </div> <!-- end of external column 1-->
+         <!--Start of Portfolio Inner Container -->
+        
+        <div class="container">
+
+                <div class ="row">   
+
+                        <div class="col-md-2">  <!-- This is empty external column 1 of 3-->
+                        </div> <!-- end of external column 1-->
+                        
+                        <div class="col-md-8 text-info">  <!--This is external column 2 of 3 w/ Portfolio Header --> 
+                       <h4>Portfolio</h4>  <!-- end of external column 2-->
             
-            <div class="col-md-9 text-info"> <!-- External column 2 of 3 w/ About Header --> 
-                <h4>Portfolio</h4>  <!-- end of external column 2-->
+                       <!--Start of Portfolio picts; 3 rows each w/ 2 columns-->
+                       
+                       <div class="row">  <!--row 1-->
+                     
+                           <div class="col-md-4">
+                                       <img src="assets/images/clipart2975845_opt.png" alt="Hangman" class="img-thumbnail">
+                                       <p class="bg-info text-white h6">Hangman</p>
+                                    </div> <!-- end of internal column 1 with picture & paragraph-->
+            
+                           <div class="col-md-4">
+                                       <img src="assets/images/lux-interaction-248653-unsplash_opt.jpg" alt="RPG" class="img-thumbnail" height="100%">
+                                       <p class=" text-responsive bg-info text-white h6">RPG</p>
+                           </div>   <!-- end of internal column 2 w/ picture & paragraph-->
+                       </div> <!-- end of row 1-->
+                    
+                     
+                       <div class="row">  <!--row 2-->
+                     
+                            <div class="col-md-4">
+                                    <img src="assets/images/clipart4674634_opt.png" alt="Trivia" class="img-thumbnail">
+                                    <p class="bg-info text-white h6">Trivia</p>
+                                 </div> <!-- end of internal column 1 with picture & paragraph-->
+            
+                            <div class="col-md-4">
+                                    <img src="assets/images/sara-kurfess-748887-unsplash_opt.jpg" alt="Widgets" class="img-thumbnail">
+                                    <p class="bg-info text-white h6">Widgets</p>
+                            </div>   <!-- end of internal column 2 w/ picture & paragraph-->
+                        </div> <!-- end of row 2-->
+                    
+                        <div class="row">  <!--row 3; single picture w/ 2 blank columns-->
+                     
+                            <div class="col-md-4">
+                                    <img src="assets/images/marcus-wallis-607534-unsplash_opt.jpg" alt="Trivia" class="img-thumbnail">
+                                    <p class="bg-info text-white h6">Rock Paper Scissors</p>
+                                </div> <!-- end of internal column 1 with picture & paragraph-->
+            
+                            <div class="col-md-4"> <!--Empty column-->
+                                </div>   <!-- end of internal column 2-->
+                        </div> <!-- end of row 3-->
 
-            <div class="col-md-1.5">  <!-- This is external column 1 of 3 - Empty -->
-                </div> <!-- end of external column 1-->
-        </div><!-- end of row 1 -->
-
-                <!--This starts the Portfolio body w/ pictures-->
-
-            <div class="row">  <!-- This is row 1 of 3 -->
-                    <div class="col-md-3"> <!-- This is column 1 of 3 columns; first 2 columns are visible  -->
-                            <img src="assets/images/clipart2975845_opt.png" alt="Hangman" class="img-thumbnail">
-                            <p class="bg-info text-white h6">Hangman</p>
-                    </div>
-               
-
-                    <div class="col-md-3"> <!-- This is column 2 of 3 columns -->
-                            <img src="assets/images/lux-interaction-248653-unsplash_opt.jpg" alt="RPG" class="img-thumbnail">
-                            <p class="bg-info text-white">RPG</p>
-                    </div> <!-- end of row 2 -->
-
-                    <div class="col-md-3"><!-- This is column 3 of 3 -empty -->
-                    </div> 
-            </div> <!-- end of row 1 -->
-               
-               <div class="row"> <!--This is row 2 w/ paragraph 2--> 
-                   <div class="col-md-8">
-                           <p>My interest in languages has been a life-long passion and has helped me in various career paths: teaching, translating/interpreting and, currently, web development. I enjoy working and interacting with people from different countries/cultures, and I look forward to many more international experiences as a Full-Stack/Front-End Developer!</p>
-                   </div> 
-               </div> <!-- end of row 2-->
-
-               <div class="row"> <!--This is row 3 w/ paragraph 3--> 
-                   <div class="col-md-8">
-                           <p>In the links above, please feel free to send me a message with your comments and/or feedback about this website and my other projects listed in this portfolio.</p>
-                   </div>
-               </div>  <!-- end of row 3-->
+        </div> <!--end of internal container-->
+            
            <div class="col-md-2">  <!-- This is external column 3 of 3 - Empty -->
            </div> <!-- end of external column 3-->
 
 
+     <!--Start of the Footer & Copyright - Moved outside internal container to fill whole page-->
     
-        <div class="row"> <!--This row holds the Footer & Copyright-->
-            <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>
-        </div> <!--end of the Footer & Copyright-->
-    
-    </div> <!-- end of container-->
+     <div class ="container">
+        <div class="row"> 
+                <div class="col-md-12 bg-info"> <!--This is turquoise line-->
+                </div>
+        
+                <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>">       
+        </div>
+    </div> <!--end of the Footer & Copyright-->
  </body>
  </html>
 

@@ -10,49 +10,49 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row"> <!-- This is the NAV row-->
-
-            <!-- This is column 1 of 4 - blank column -->
-            <div class="col-md-1.5">  
-                <nav class="navbar navbar-light bg-transparent">
-                    <span class="navbar-brand mb-0 h1"></span>
-               </nav>  
-            </div> <!-- end of column 1-->
-          
-            <div class="col-md-2.5"> <!-- This is column 2 of 4; Bootstrap default Nav bar - modified as a heading-->
-                <nav class="navbar navbar-light bg-info">
-                    <span class="navbar-brand mb-0 h1">Lisa Mameli Noetzel</span>
-                </nav>
-            </div>  <!-- end of column 2-->
-
-            <!-- This is column 3 of 4 - blank column -->
-            <div class="col-md-4">  
-                 <nav class="navbar navbar-light bg-transparent">
-                     <span class="navbar-brand mb-0 h1"></span>
-                </nav>        
-            </div> <!-- end of column 3-->
+            <div class="row"> <!--This row holds the Name & NavBar links-->
+           
+                <!-- This is column 1 of 4 - blank column -->
+                <div class="col-md-1.5">  
+                    <nav class="navbar navbar-light bg-transparent">
+                        <span class="navbar-brand mb-0 h1"></span>
+                   </nav>  
+                </div> <!-- end of column 1-->
+              
+                <div class="col-md-2.5"> <!-- This is column 2 of 4 - modified as a heading-->
+                    <nav class="navbar navbar-light bg-info">
+                        <span class="navbar-brand mb-0 h1">Lisa Mameli Noetzel</span>
+                    </nav>
+                </div>  <!-- end of column 2-->
     
-            <div class="col-md-4">   <!-- This is column 4 of 4 -->
-                <nav class="navbar navbar-light bg-transparent">
-                            <span class="navbar-brand mb-0 h1"></span>
-                    <ul class="nav right-aligned">
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="index.html">About</a>
-                        </li>                           
-                   
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Contact</a>
-                        </li>                   
-                    </ul>
-                </nav>
-            </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up)-->
-        </div>  <!-- end of row-->
+                <!-- This is column 3 of 4 - blank column -->
+                <div class="col-md-4">  
+                     <nav class="navbar navbar-light bg-transparent">
+                         <span class="navbar-brand mb-0 h1"></span>
+                    </nav>        
+                </div> <!-- end of column 3-->
+        
+                <div class="col-md-4">   <!-- This is column 4 of 4 -->
+                    <nav class="navbar navbar-light bg-transparent">
+                                <span class="navbar-brand mb-0 h1"></span>
+                        <ul class="nav right-aligned">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="index.html">About</a>
+                            </li>                           
+                       
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">Contact</a>
+                            </li>                   
+                        </ul>
+                    </nav>
+                </div>  <!-- end of column 4; Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up-->
+            </div>  <!-- end of Name & Nav row-->
 
+        <div class="container">
                 <div class="row"> <!--This is the beginning of the Contact-->
                     <div class="col-md-8">
                         <div class="page-header text-info">
@@ -74,13 +74,19 @@
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
                             </div>
                         </form>
+                </div>
+        </div>   <!--end of form container-->             
 
-                <div class="row"> <!--This row holds the Footer & Copyright-->
-                            <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>
-                </div> <!--end of the Footer & Copyright-->
-
-    </div> <!-- end of container-->
-
+        <!--Start of the Footer & Copyright - Moved outside internal container to fill whole page-->
+<div class ="container">
+        <div class="row"> 
+                <div class="col-md-12 bg-info"> <!--This is turquoise line-->
+                </div>
+        
+                <div class="col-md-12 p-3 mb-2 bg-secondary text-white blockquote text-center">Copyright &copy;</div>">       
+        </div>
+</div> <!--end of the Footer & Copyright-->
+</div>
 
  </body>
  </html>
